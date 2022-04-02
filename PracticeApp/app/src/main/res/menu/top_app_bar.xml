@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/cast"
+        android:title="Cast"
+        android:contentDescription="This is a file"
+        app:showAsAction="always"
+         />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notification"
+        android:title="Notifications"
+        android:contentDescription="This is a search"
+        app:showAsAction="always"
+         />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Search"
+        android:contentDescription="This is a search"
+        app:showAsAction="always"
+         />
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/account"
+        android:title="Account"
+        android:contentDescription="This is a search"
+        app:showAsAction="always"
+         />
+</menu>

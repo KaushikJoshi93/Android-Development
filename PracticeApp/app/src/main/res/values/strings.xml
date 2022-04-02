@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">YouTube</string>
+    <string name="homepage_name">Home</string>
+    <string name="shorts">Shorts</string>
+    <string name="add"></string>
+    <string name="subscription">Subscription</string>
+    <string name="library">Library</string>
+
+</resources>
