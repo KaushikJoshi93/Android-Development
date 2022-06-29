@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".BFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/edittextB"
+        android:layout_width="220dp"
+        android:height="22dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="65dp"
+        />
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="130dp"
+        android:layout_height="42dp"
+        android:text="Submit"
+        android:layout_marginLeft="99dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="120dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:id="@+id/frag2_textview"
+        android:layout_marginLeft="65dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <ImageView
+        android:layout_width="256dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginLeft="62dp"
+        android:id="@+id/imageview"
+        android:layout_marginBottom="22dp"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:layout_marginLeft="132dp"
+        android:id="@+id/openCamera"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Gallery"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:layout_marginLeft="132dp"
+        android:id="@+id/openGallery"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
