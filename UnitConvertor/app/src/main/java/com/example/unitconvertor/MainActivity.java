@@ -50,10 +50,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public  void openActivity(View view){
-        Toast.makeText(this, "This is a new window....", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this,MainActivity2.class);
         intent.putExtra(EXTRA_NAME , "This is a string of next window");
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_up , R.anim.no_animation);
     }
     public void openVideoPlayer(View view){
         Intent intent = new Intent(this,MainActivity3.class);

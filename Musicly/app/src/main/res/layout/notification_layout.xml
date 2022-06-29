@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/img">
+
+    <TextView
+        android:id="@+id/notification_title"
+        style="@style/TextAppearance.Compat.Notification.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Title of notification"
+        android:textColor="@color/red" />
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1">-->
+
+<!--        <androidx.appcompat.widget.AppCompatImageButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_baseline_skip_previous_24"-->
+<!--            android:background="@drawable/button_border"-->
+<!--            android:padding="18dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="42dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:id="@+id/previousnotSong"/>-->
+
+<!--        <androidx.appcompat.widget.AppCompatImageButton-->
+<!--            android:id="@+id/playnotsong"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            android:background="@drawable/button_border"-->
+<!--            android:padding="18dp"-->
+<!--            android:src="@drawable/ic_baseline_play_arrow_24" />-->
+
+<!--        <androidx.appcompat.widget.AppCompatImageButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_baseline_skip_next_24"-->
+<!--            android:background="@drawable/button_border"-->
+<!--            android:padding="18dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginRight="42dp"-->
+<!--            android:id="@+id/nextnotSong"/>-->
+
+<!--    </RelativeLayout>-->
+
+</LinearLayout>

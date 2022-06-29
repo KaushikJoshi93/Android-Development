@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:minHeight="88dp"
+    android:id="@+id/earthquakeList">
+
+    <TextView
+        android:id="@+id/magnitude"
+        android:layout_width="100dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/circle_bg"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:id="@+id/location"
+        android:layout_marginRight="42dp"
+       android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/earthquake_time"
+       android:gravity="center_vertical"
+        android:textSize="12dp"
+        android:textStyle="italic"/>
+
+
+</LinearLayout>

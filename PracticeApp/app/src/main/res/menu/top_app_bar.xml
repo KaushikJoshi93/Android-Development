@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/favorite"
-        android:icon="@drawable/cast"
-        android:title="Cast"
-        android:contentDescription="This is a file"
-        app:showAsAction="always"
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"
+        android:contentDescription="Setting button"
+        app:showAsAction="collapseActionView"
          />
 
     <item
@@ -15,20 +15,20 @@
         android:icon="@drawable/notification"
         android:title="Notifications"
         android:contentDescription="This is a search"
-        app:showAsAction="always"
+        app:showAsAction="collapseActionView"
          />
+<!--    <item-->
+<!--        android:id="@+id/search"-->
+<!--        android:icon="@drawable/search"-->
+<!--        android:title="Search"-->
+<!--        android:contentDescription="This is a search"-->
+<!--        app:showAsAction="always"-->
+<!--         />-->
     <item
-        android:id="@+id/search"
-        android:icon="@drawable/search"
-        android:title="Search"
-        android:contentDescription="This is a search"
-        app:showAsAction="always"
-         />
-    <item
-        android:id="@+id/account"
-        android:icon="@drawable/account"
-        android:title="Account"
-        android:contentDescription="This is a search"
-        app:showAsAction="always"
+        android:id="@+id/log_out"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Log Out"
+        android:contentDescription="Log out button"
+        app:showAsAction="collapseActionView"
          />
 </menu>

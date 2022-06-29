@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "703010797293",
+    "project_id": "musicplayer-2a8c1",
+    "storage_bucket": "musicplayer-2a8c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703010797293:android:b265c53f8ca3e2dc077ee4",
+        "android_client_info": {
+          "package_name": "com.example.musicly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703010797293-lig1r5bq1upaolebkcpuvi7tbm1d9fje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPV1GbIh7JcXGeKWMTG-r5EWCyRIwsRDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703010797293-lig1r5bq1upaolebkcpuvi7tbm1d9fje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
